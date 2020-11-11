@@ -1,2 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.mx.dao.CelularDao"/>
+<fullyQualifiedTypeName name="com.mx.entidad.Celular"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="com.mx.dao.MarcaCelularDao"/>
+<fullyQualifiedTypeName name="com.mx.entidad.MarcaCelular"/>
+<fullyQualifiedTypeName name="org.omg.Messaging.SyncScopeHelper"/>
+<fullyQualifiedTypeName name="com.mx.dao.DuenoDao"/>
+<fullyQualifiedTypeName name="com.mx.general.DataBase"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="com.sun.xml.bind.v2.runtime.reflect.Accessor.GetterSetterReflection"/>
+<fullyQualifiedTypeName name="com.mx.entidad.Dueno"/>
+<fullyQualifiedTypeName name="com.mx.dao.PokemonDao"/>
+<fullyQualifiedTypeName name="com.mx.entidad.Pokemon"/>
+<fullyQualifiedTypeName name="com.mx.entidad.Gato"/>
+<fullyQualifiedTypeName name="com.mx.entidades.Tanque"/>
+<fullyQualifiedTypeName name="com.mx.dao.TanqueDao"/>
+<fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+<fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+<fullyQualifiedTypeName name="javax.persistence.FetchType"/>
+<fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+<fullyQualifiedTypeName name="com.mx.dao.EstadoDao"/>
+<fullyQualifiedTypeName name="com.mx.generales.Estatus"/>
+<fullyQualifiedTypeName name="com.mx.entidades.Estado"/>
+<fullyQualifiedTypeName name="com.mx.generales.Operaciones"/>
+<fullyQualifiedTypeName name="com.mx.entidades.Pais"/>
+<fullyQualifiedTypeName name="com.mx.dao.PaisDao"/>
+<fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="com.mx.general.Operaciones"/>
+<fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Path"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="javax.ws.rs.GET"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Consumes"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.mx.entidades.Animal"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.mx.dao.AnimalDao"/>
+<fullyQualifiedTypeName name="javax.ws.rs.POST"/>
+<fullyQualifiedTypeName name="com.mx.general.Estatus"/>
+</qualifiedTypeNameHistroy>

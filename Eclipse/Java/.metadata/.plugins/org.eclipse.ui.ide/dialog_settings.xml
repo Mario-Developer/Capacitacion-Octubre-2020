@@ -4,4 +4,10 @@
 		<item value="C:\Users\Mario\Desktop\Capacitacion-Octubre-2020\Eclipse\Java\EJER-23Oct"/>
 		<item value="/Users/Mario/Documents/Capacitación Octubre 2020/Eclipse/Java/EJER-StaticFinal"/>
 	</list>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.m2e"/>
+		</list>
+	</section>
 </section>
