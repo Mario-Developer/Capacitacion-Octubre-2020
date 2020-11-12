@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="card">
+        <div class = "card-header">
+            <h2>Animales Crud</h2>
+        </div>
+        <div class = "card-body">
+            <table class = "table table-hover">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Tipo</th>
+                        <th>Edad</th>
+                        <th>Editar</th>
+                        <th>Eliminar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let animal of animal" class = "text-center">
+                        <td>{{animal.id}}</td>
+                        <td>{{animal.nombre}}</td>
+                        <td>{{animal.tipo}}</td>
+                        <td>{{animal.edad}}</td>
+                        <td><button class = "btn btn-warning">Editar</button></td>
+                        <td><button class = "btn btn-warning">Eliminar</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

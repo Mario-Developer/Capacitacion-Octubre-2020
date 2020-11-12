@@ -17,7 +17,7 @@ public class AnimalDao implements Operaciones{
 	String r = null;
 	
 	public List mostrar() {
-		List<Animal> lista = em.createQuery("from Animal order by id").getResultList();
+		List<Animal> lista = em.createQuery("from Animal").getResultList();
 		return lista;
 	}
 	

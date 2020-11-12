@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "ANIMAL")
+@Table(name = "ANIMALANGULAR")
 public class Animal {
 	@Id
 	@Column(name="ID", columnDefinition="NUMBER")
@@ -21,8 +21,7 @@ public class Animal {
 	@Column(name="EDAD", columnDefinition="NUMBER")
 	int edad;
 	
-	public Animal() {
-		
+	public Animal() {		
 	}
 	
 	public Animal(int id) {
@@ -30,7 +29,6 @@ public class Animal {
 	}
 
 	public Animal(int id, String nombre, String tipo, int edad) {
-		super();
 		this.id = id;
 		this.nombre = nombre;
 		this.tipo = tipo;
