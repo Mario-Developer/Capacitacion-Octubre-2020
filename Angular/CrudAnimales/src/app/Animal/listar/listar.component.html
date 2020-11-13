@@ -16,13 +16,13 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr *ngFor="let animal of animal" class = "text-center">
-                        <td>{{animal.id}}</td>
-                        <td>{{animal.nombre}}</td>
-                        <td>{{animal.tipo}}</td>
-                        <td>{{animal.edad}}</td>
-                        <td><button class = "btn btn-warning">Editar</button></td>
-                        <td><button class = "btn btn-warning">Eliminar</button></td>
+                    <tr *ngFor="let a of animal" class = "text-center">
+                        <td>{{a.id}}</td>
+                        <td>{{a.nombre}}</td>
+                        <td>{{a.tipo}}</td>
+                        <td>{{a.edad}}</td>
+                        <td><button (click) = "Editar(a)" class = "btn btn-warning">Editar</button></td>
+                        <td><button (click) = "Eliminar(a)" class = "btn btn-danger">Eliminar</button></td>
                     </tr>
                 </tbody>
             </table>

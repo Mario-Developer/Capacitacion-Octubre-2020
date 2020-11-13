@@ -37,6 +37,8 @@ public class AnimalServ {
 	@Consumes({MediaType.APPLICATION_JSON})
 	@Produces({MediaType.APPLICATION_JSON})
 	public Estatus guardar(Animal a) {
+		e = new Estatus();
+		dao = new AnimalDao();
 		e.setObj(a);
 		r = dao.guardar(a);
 		if (r.equals("1")) {
@@ -54,6 +56,8 @@ public class AnimalServ {
 	@Consumes({MediaType.APPLICATION_JSON})
 	@Produces({MediaType.APPLICATION_JSON})
 	public Estatus editar(Animal a) {
+		e = new Estatus();
+		dao = new AnimalDao();
 		e.setObj(a);
 		r = dao.editar(a);
 		if (r.equals("1")) {
@@ -71,6 +75,8 @@ public class AnimalServ {
 	@Consumes({MediaType.APPLICATION_JSON})
 	@Produces({MediaType.APPLICATION_JSON})
 	public Estatus eliminar(Animal a) {
+		e = new Estatus();
+		dao = new AnimalDao();
 		e.setObj(a);
 		r = dao.eliminar(a);
 		if (r.equals("1")) {
@@ -88,6 +94,7 @@ public class AnimalServ {
 	@Consumes({MediaType.APPLICATION_JSON})
 	@Produces({MediaType.APPLICATION_JSON})
 	public Animal buscar(Animal a) {
+		dao = new AnimalDao();
 		return a = (Animal) dao.buscar(a);
 	}
 }
