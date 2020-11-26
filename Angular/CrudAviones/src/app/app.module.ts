@@ -8,6 +8,11 @@ import { GuardarComponent } from './Avion/guardar/guardar.component';
 import { EditarComponent } from './Avion/editar/editar.component';
 import { EliminarComponent } from './Avion/eliminar/eliminar.component';
 
+import{FormsModule} from '@angular/forms';
+import{ReactiveFormsModule} from '@angular/forms';
+import{ServiciosService} from '../app/Servicios/servicios.service';
+import{HttpClientModule} from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,9 +23,12 @@ import { EliminarComponent } from './Avion/eliminar/eliminar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ServiciosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

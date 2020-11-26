@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AlumnoCtrl</servlet-name>
+  	<display-name>AlumnoCtrl</display-name>
+  	<description></description>
+  	<servlet-class>com.mx.controller.AlumnoCtrl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ProfesorCtrl</servlet-name>
+  	<display-name>ProfesorCtrl</display-name>
+  	<description></description>
+  	<servlet-class>com.mx.controller.ProfesorCtrl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ClaseCtrl</servlet-name>
+  	<display-name>ClaseCtrl</display-name>
+  	<description></description>
+  	<servlet-class>com.mx.controller.ClaseCtrl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AlumnoCtrl</servlet-name>
+  	<url-pattern>/AlumnoCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProfesorCtrl</servlet-name>
+  	<url-pattern>/ProfesorCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ClaseCtrl</servlet-name>
+  	<url-pattern>/ClaseCtrl</url-pattern>
+  </servlet-mapping>
+</web-app>

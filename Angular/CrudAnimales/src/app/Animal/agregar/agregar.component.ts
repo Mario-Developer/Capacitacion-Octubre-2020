@@ -8,17 +8,20 @@ import { Animal } from 'src/app/Entidad/Animal';
   templateUrl: './agregar.component.html',
   styleUrls: ['./agregar.component.css']
 })
+
 export class AgregarComponent implements OnInit {
+
   constructor(private router: Router, private service: ServiceService) { }
+
   ngOnInit(): void {
   }
 
   animal:Animal = new Animal();
+  
   Guardar(){
     this.service.agregarAnimal(this.animal).subscribe(data=>{
       alert("Se guardo el animal");
       this.router.navigate(["listar"]);
     })
   }
-
 }

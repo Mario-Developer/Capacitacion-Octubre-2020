@@ -1,1 +1,31 @@
-<p>mostrar works!</p>
+<div class="container">
+    <div class="card">
+        <div class = "card-header">
+            <h2>Aviones Crud</h2>
+        </div>
+        <div class = "card-body">
+            <table class = "table table-hover">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Modelo</th>
+                        <th>Marca</th>
+                        <th>Precio</th>
+                        <th>Editar</th>
+                        <th>Eliminar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let a of avion" class = "text-center">
+                        <td>{{a.id}}</td>
+                        <td>{{a.modelo}}</td>
+                        <td>{{a.marca}}</td>
+                        <td>{{a.precio}}</td>
+                        <td><button (click) = "Editar(a)" class = "btn btn-warning">Editar</button></td>
+                        <td><button (click) = "Eliminar(a)" class = "btn btn-danger">Eliminar</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

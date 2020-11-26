@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	<!------ Include the above in your HEAD tag ---------->
+	
+	<h1>Gestion Equipos</h1>
+	
+	<form th:action="@{/Equipo/editar}" method = "post" th:object="${equipo}">
+	  <div class="form-group">
+	    <label for="exampleInputEmail1">Id</label>
+	    <input type="text" th:field="*{id}" th:value="*{id}" class="form-control" id="id" name = "id">
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleInputEmail1">Nombre</label>
+	    <input type="text" th:field="*{nombre}" th:value="*{nombre}"class="form-control" id="nombre" name = "nombre">
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleInputEmail1">Pais</label>
+	    <input type="text" th:field="*{pais}" th:value="*{pais}" class="form-control" id="pais" name = "pais">
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleInputEmail1">Liga</label>
+	    <input type="text" th:field="*{liga}" th:value="*{liga}" class="form-control" id="liga" name = "liga">
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleInputEmail1">Trofeos</label>
+	    <input type="text" th:field="*{trofeos}" th:value="*{trofeos}" class="form-control" id="trofeos" name = "trofeos">
+	  </div>
+	  
+	  <button type="submit" class="btn btn-primary" name="btnGuardar" id="btnGuardar">Guardar</button>
+	</form>	
+
+</body>
+</html>

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CrudAviones';
+
+  constructor(private router:Router){}
+  Mostrar(){
+    this.router.navigate(["mostrar"]);
+  }
+  Guardar(){
+    this.router.navigate(["guardar"])
+  }
 }
