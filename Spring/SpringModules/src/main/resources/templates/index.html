@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th = "http://thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Spring MVC</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+	<div class = "container mt-4">
+		<table class = "table">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>NOMBRE</th>
+					<th>APP</th>
+					<th>APM</th>
+					<th>ACCIONES</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each = "cliente:${cliente}"> <!-- ${Parametro de addAttribute} -->
+					<td th:text = "${cliente.id}"></td>
+					<td th:text =  "${cliente.nombre}"></td>
+					<td th:text =  "${cliente.app}"></td>
+					<td th:text =  "${cliente.apm}"></td>
+					<td>
+						<a class = "btn btn-warning">Editar</a>
+						<a class = "btn btn-danger">Eliminar</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
